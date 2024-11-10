@@ -382,7 +382,7 @@ p {
   }
 }
 
-/* responsiveness for 300px and under */
+/* responsiveness for 399px and under */
 @media (max-width: 300px) {
   html {
     box-sizing: border-box;
