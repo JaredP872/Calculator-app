@@ -125,7 +125,7 @@ p {
 }
 
 /* responsiveness for ipad Air */
-@media (max-width: 1180px) {
+@media (max-width: 820px) {
   html {
     box-sizing: border-box;
     min-height: 100vh;
