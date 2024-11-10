@@ -1,127 +1,129 @@
-html {
-  box-sizing: border-box;
-  min-height: 100vh;
-}
+@media (max-width: 2166px) {
+  html {
+    box-sizing: border-box;
+    min-height: 100vh;
+  }
 
-body {
-  background: linear-gradient(135deg, #03045e, #caf0f8);
-  text-align: center;
-}
+  body {
+    background: linear-gradient(135deg, #03045e, #caf0f8);
+    text-align: center;
+  }
 
-/* The container for all the content of the calculator  */
-.main-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  /* The container for all the content of the calculator  */
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-h1 {
-  text-align: center;
-  margin: 0;
-  color: #00b4d8;
-  margin: 10px;
-}
+  h1 {
+    text-align: center;
+    margin: 0;
+    color: #00b4d8;
+    margin: 10px;
+  }
 
-/* The calculator container. This holds the buttons and screen of the calculator  */
-.calculator {
-  background-color: #00b4d8;
-  width: 30vw;
-  height: 91vh;
-  border: solid #03045e 6px;
-  border-radius: 35px;
-}
+  /* The calculator container. This holds the buttons and screen of the calculator  */
+  .calculator {
+    background-color: #00b4d8;
+    width: 30vw;
+    height: 91vh;
+    border: solid #03045e 6px;
+    border-radius: 35px;
+  }
 
-/* This is for the screen of the calculator  */
-.digit-view-container {
-  background-color: black;
-  border: solid #03045e 6px;
-  height: 20vh;
-  width: 97%;
-  border-radius: 25px 28px 0 0;
-  color: white;
-  font-size: 50px;
-}
+  /* This is for the screen of the calculator  */
+  .digit-view-container {
+    background-color: black;
+    border: solid #03045e 6px;
+    height: 20vh;
+    width: 97%;
+    border-radius: 25px 28px 0 0;
+    color: white;
+    font-size: 50px;
+  }
 
-p {
-  margin-left: 450px;
-  margin-top: 140px;
-}
+  p {
+    margin-left: 450px;
+    margin-top: 140px;
+  }
 
-/* This is the container for the buttons of our calculator  */
-.digit-button-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 100px, auto;
-  border: solid #03045e 5px;
-  height: 69.2vh;
-  border-radius: 0 0 30px 30px;
-}
+  /* This is the container for the buttons of our calculator  */
+  .digit-button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px, auto;
+    border: solid #03045e 5px;
+    height: 69.2vh;
+    border-radius: 0 0 30px 30px;
+  }
 
-/* below are all the button settings and added effects to them  */
-.digit-buttons {
-  height: 115px;
-  width: 115px;
-  border-radius: 50%;
-  font-size: 40px;
-  background-color: #caf0f8;
-  color: #03045e;
-  margin-top: 5px;
-  margin-left: 15px;
-  margin: 3px;
-}
+  /* below are all the button settings and added effects to them  */
+  .digit-buttons {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    font-size: 40px;
+    background-color: #caf0f8;
+    color: #03045e;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin: 3px;
+  }
 
-.digit-buttons-top-row {
-  height: 115px;
-  width: 115px;
-  border-radius: 50%;
-  font-size: 40px;
-  color: #03045e;
-  background-color: #00b4d8;
-  margin-top: 5px;
-  margin-left: 15px;
-  margin: 3px;
-}
+  .digit-buttons-top-row {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #03045e;
+    background-color: #00b4d8;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin: 3px;
+  }
 
-.digit-buttons-side-row {
-  height: 115px;
-  width: 115px;
-  border-radius: 50%;
-  font-size: 40px;
-  color: #03045e;
-  background-color: #0077b6;
-  margin-top: 5px;
-  margin-left: 15px;
-  margin: 3px;
-}
+  .digit-buttons-side-row {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #03045e;
+    background-color: #0077b6;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin: 3px;
+  }
 
-.digit-buttons:hover {
-  cursor: pointer;
-  background-color: navy;
-  color: white;
-}
+  .digit-buttons:hover {
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+  }
 
-.digit-buttons-top-row:hover {
-  cursor: pointer;
-  background-color: navy;
-  color: white;
-}
+  .digit-buttons-top-row:hover {
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+  }
 
-.digit-buttons-side-row:hover {
-  cursor: pointer;
-  background-color: navy;
-  color: white;
-}
+  .digit-buttons-side-row:hover {
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+  }
 
-.digit-buttons:active {
-  background-color: lightblue;
-}
+  .digit-buttons:active {
+    background-color: lightblue;
+  }
 
-.digit-buttons-top-row:active {
-  background-color: lightblue;
-}
+  .digit-buttons-top-row:active {
+    background-color: lightblue;
+  }
 
-.digit-buttons-side-row:active {
-  background-color: lightblue;
+  .digit-buttons-side-row:active {
+    background-color: lightblue;
+  }
 }
 
 /* responsiveness for ipad Air */
@@ -383,7 +385,7 @@ p {
 }
 
 /* responsiveness for vercel display  */
-@media (max-width: 2166px) {
+/* @media (max-width: 2166px) {
   html {
     box-sizing: border-box;
     min-height: 100vh;
@@ -391,11 +393,11 @@ p {
 
   body {
     background: linear-gradient(135deg, #03045e, #caf0f8);
-    text-align: center;
+    text-align: center; */
   }
 
   /* The container for all the content of the calculator  */
-  .main-container {
+  /* .main-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -406,19 +408,19 @@ p {
     margin: 0;
     color: #00b4d8;
     margin: 10px;
-  }
+  } */
 
   /* The calculator container. This holds the buttons and screen of the calculator  */
-  .calculator {
+  /* .calculator {
     background-color: #00b4d8;
     width: 30vw;
     height: 87vh;
     border: solid #03045e 5px;
     border-radius: 35px;
-  }
+  } */
 
   /* This is for the screen of the calculator  */
-  .digit-view-container {
+  /* .digit-view-container {
     background-color: black;
     border: solid #03045e 5px;
     height: 15vh;
@@ -431,20 +433,20 @@ p {
   p {
     margin-left: 450px;
     margin-top: 140px;
-  }
+  } */
 
   /* This is the container for the buttons of our calculator  */
-  .digit-button-container {
+  /* .digit-button-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 100px, auto;
     border: solid #03045e 5px;
     height: 69.2vh;
     border-radius: 0 0 30px 30px;
-  }
+  } */
 
   /* below are all the button settings and added effects to them  */
-  .digit-buttons {
+  /* .digit-buttons {
     height: 66px;
     width: 66px;
     border-radius: 50%;
@@ -466,8 +468,8 @@ p {
     margin-top: 5px;
     margin-left: 10px;
     margin: 3px;
-  }
-
+  } */
+/* 
   .digit-buttons-side-row {
     height: 66px;
     width: 66px;
@@ -510,3 +512,4 @@ p {
     background-color: lightblue;
   }
 }
+*/ */
