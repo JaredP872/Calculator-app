@@ -411,7 +411,7 @@ p {
   /* The calculator container. This holds the buttons and screen of the calculator  */
   .calculator {
     background-color: #00b4d8;
-    width: 40vw;
+    width: 30vw;
     height: 87vh;
     border: solid #03045e 5px;
     border-radius: 35px;
@@ -422,7 +422,7 @@ p {
     background-color: black;
     border: solid #03045e 5px;
     height: 15vh;
-    width: 50%;
+    width: 60%;
     border-radius: 30px 30px 0 0;
     color: white;
     font-size: 50px;
