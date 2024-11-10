@@ -382,8 +382,8 @@ p {
   }
 }
 
-/* responsiveness for 399px and under */
-@media (max-width: 300px) {
+/* responsiveness for 299px and under */
+@media (max-width: 299px) {
   html {
     box-sizing: border-box;
     min-height: 100vh;
@@ -445,8 +445,8 @@ p {
 
   /* below are all the button settings and added effects to them  */
   .digit-buttons {
-    height: 55px;
-    width: 55px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     font-size: 20px;
     background-color: black;
@@ -457,8 +457,8 @@ p {
   }
 
   .digit-buttons-top-row {
-    height: 55px;
-    width: 55px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     font-size: 20px;
     color: #03045e;
@@ -469,8 +469,8 @@ p {
   }
 
   .digit-buttons-side-row {
-    height: 55px;
-    width: 55px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     font-size: 20px;
     color: #03045e;
