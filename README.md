@@ -5,3 +5,4 @@
 - My calculator is also responsive with iPhone SE and iPad Air.
 
 - Hosted on Vercel
+  https://vercel.com/jareds-projects-1a9d964b/calculator-app
