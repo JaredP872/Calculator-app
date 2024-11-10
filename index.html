@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/font-awesome-css" />
+    <link rel="icon" href="images/CorpTech-logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <h1>CorpTechs Calculator</h1>
+    <div class="main-container">
+    <div class="container">
+
+      <input readonly id="digitView" class="digit-view-container" />
+
+      <!-- onclick = appendToDisplay below is used to add the character inside of the button to the screen on the calculator  -->
+      <div class="digit-button-container" id="numbers">
+        <button class="digit-buttons-top-row" onclick="appendToDisplay('+')">+</button>
+        <button class="digit-buttons-side-row" onclick="appendToDisplay('7')">7</button>
+        <button class="digit-buttons-side-row" onclick="appendToDisplay('8')">8</button>
+        <button class="digit-buttons-side-row" onclick="appendToDisplay('9')">9</button>
+
+        <button class="digit-buttons" onclick="appendToDisplay('-')">-</button>
+        <button class="digit-buttons" onclick="appendToDisplay('4')">4</button>
+        <button class="digit-buttons" onclick="appendToDisplay('5')">5</button>
+        <button class="digit-buttons-side-row" onclick="appendToDisplay('6')">6</button>
+
+        <button class="digit-buttons" onclick="appendToDisplay('*')">x</button>
+        <button class="digit-buttons" onclick="appendToDisplay('1')">1</button>
+        <button class="digit-buttons" onclick="appendToDisplay('2')">2</button>
+        <button class="digit-buttons-side-row" onclick="appendToDisplay('3')">3</button>
+
+        <button class="digit-buttons" onclick="appendToDisplay('/')">/</button>
+        <button class="digit-buttons" onclick="appendToDisplay('0')">0</button>
+        <button class="digit-buttons" onclick="appendToDisplay('.')">.</button>
+        <button class="digit-buttons-side-row" onclick="calculate('=')">=</button>
+
+
+        <button class="digit-buttons" onclick="clearDisplay('')">AC</button>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
