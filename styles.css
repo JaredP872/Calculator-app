@@ -385,7 +385,7 @@
 }
 
 /* responsiveness for vercel display  */
-/* @media (max-width: 2166px) {
+ @media (max-width: 831px) {
   html {
     box-sizing: border-box;
     min-height: 100vh;
@@ -396,8 +396,8 @@
     text-align: center; */
   }
 
-  /* The container for all the content of the calculator  */
-  /* .main-container {
+  The container for all the content of the calculator 
+   .main-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -408,19 +408,19 @@
     margin: 0;
     color: #00b4d8;
     margin: 10px;
-  } */
+  } 
 
-  /* The calculator container. This holds the buttons and screen of the calculator  */
-  /* .calculator {
+/* The calculator container. This holds the buttons and screen of the calculator   */
+   .calculator {
     background-color: #00b4d8;
     width: 30vw;
     height: 87vh;
     border: solid #03045e 5px;
     border-radius: 35px;
-  } */
+  } 
 
   /* This is for the screen of the calculator  */
-  /* .digit-view-container {
+   .digit-view-container {
     background-color: black;
     border: solid #03045e 5px;
     height: 15vh;
@@ -436,7 +436,7 @@
   } */
 
   /* This is the container for the buttons of our calculator  */
-  /* .digit-button-container {
+   .digit-button-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 100px, auto;
@@ -446,7 +446,7 @@
   } */
 
   /* below are all the button settings and added effects to them  */
-  /* .digit-buttons {
+   .digit-buttons {
     height: 66px;
     width: 66px;
     border-radius: 50%;
@@ -468,8 +468,8 @@
     margin-top: 5px;
     margin-left: 10px;
     margin: 3px;
-  } */
-/* 
+  } 
+ 
   .digit-buttons-side-row {
     height: 66px;
     width: 66px;
@@ -512,4 +512,4 @@
     background-color: lightblue;
   }
 }
-*/ */
+
