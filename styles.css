@@ -8,6 +8,7 @@ body {
   text-align: center;
 }
 
+/* The container for all the content of the calculator  */
 .main-container {
   display: flex;
   align-items: center;
@@ -21,7 +22,8 @@ h1 {
   margin: 10px;
 }
 
-.container {
+/* The calculator container. This holds the buttons and screen of the calculator  */
+.calculator {
   background-color: #00b4d8;
   width: 30vw;
   height: 91vh;
@@ -29,6 +31,7 @@ h1 {
   border-radius: 35px;
 }
 
+/* This is for the screen of the calculator  */
 .digit-view-container {
   background-color: black;
   border: solid #03045e 5px;
@@ -44,6 +47,7 @@ p {
   margin-top: 140px;
 }
 
+/* This is the container for the buttons of our calculator  */
 .digit-button-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -53,6 +57,7 @@ p {
   border-radius: 0 0 30px 30px;
 }
 
+/* below are all the button settings and added effects to them  */
 .digit-buttons {
   height: 105px;
   width: 105px;
@@ -131,6 +136,7 @@ p {
     text-align: center;
   }
 
+  /* The container for all the content of the calculator  */
   .main-container {
     display: flex;
     align-items: center;
@@ -144,7 +150,8 @@ p {
     margin: 10px;
   }
 
-  .container {
+  /* The calculator container. This holds the buttons and screen of the calculator  */
+  .calculator {
     background-color: #00b4d8;
     width: 65vw;
     height: 86vh;
@@ -152,6 +159,7 @@ p {
     border-radius: 35px;
   }
 
+  /* This is for the screen of the calculator  */
   .digit-view-container {
     background-color: black;
     border: solid #03045e 5px;
@@ -167,6 +175,7 @@ p {
     margin-top: 140px;
   }
 
+  /* This is the container for the buttons of our calculator  */
   .digit-button-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -176,6 +185,7 @@ p {
     border-radius: 0 0 30px 30px;
   }
 
+  /* below are all the button settings and added effects to them  */
   .digit-buttons {
     height: 110px;
     width: 110px;
@@ -255,6 +265,7 @@ p {
     text-align: center;
   }
 
+  /* The container for all the content of the calculator  */
   .main-container {
     display: flex;
     align-items: center;
@@ -268,7 +279,8 @@ p {
     margin: 10px;
   }
 
-  .container {
+  /* The calculator container. This holds the buttons and screen of the calculator  */
+  .calculator {
     background-color: #00b4d8;
     width: 80vw;
     height: 87vh;
@@ -276,6 +288,7 @@ p {
     border-radius: 35px;
   }
 
+  /* This is for the screen of the calculator  */
   .digit-view-container {
     background-color: black;
     border: solid #03045e 5px;
@@ -291,6 +304,7 @@ p {
     margin-top: 140px;
   }
 
+  /* This is the container for the buttons of our calculator  */
   .digit-button-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -300,6 +314,7 @@ p {
     border-radius: 0 0 30px 30px;
   }
 
+  /* below are all the button settings and added effects to them  */
   .digit-buttons {
     height: 66px;
     width: 66px;
